@@ -57,6 +57,7 @@ export default function SeoTags() {
         content="https://dot-staking-calculator.vercel.app/shot.png"
       />
 
+<link rel="manifest" href="/manifest.json"/>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
