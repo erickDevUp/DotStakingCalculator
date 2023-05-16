@@ -8,7 +8,7 @@ export default function SeoTags() {
       />
       <meta
         name="keywords"
-        content="Polkadot Staking Calculator  , Polkadot Staking Calculator Reward"
+        content="Polkadot Staking Calculator  , Polkadot Staking Calculator Reward ,dot Staking Calculator  ,dot Staking Calculator Reward "
       />
       <meta
         name="copyright"
@@ -57,7 +57,7 @@ export default function SeoTags() {
         content="https://dot-staking-calculator.vercel.app/shot.png"
       />
 
-<link rel="manifest" href="/manifest.json"/>
+      <link rel="manifest" href="/manifest.json" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
