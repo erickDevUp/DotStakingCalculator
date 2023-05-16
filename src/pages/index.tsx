@@ -32,7 +32,10 @@ export default function Home({ price }: any) {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6 px-6" onSubmit={(e) => e.preventDefault()}>
+          <form
+            className="space-y-6 px-6 max-sm:px-0"
+            onSubmit={(e) => e.preventDefault()}
+          >
             <div className="space-y-2">
               <Container>
                 <CheckBox></CheckBox>
