@@ -5,7 +5,10 @@ import Script from "next/script";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <SeoTags />
+      </Head>
+
       <body>
         <Main />
         <NextScript />
