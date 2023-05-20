@@ -34,6 +34,7 @@ export default function SeoTags() {
       <meta
         property="og:image"
         content="https://dot-staking-calculator.vercel.app/shot.png"
+        
       />
       <meta property="twitter:card" content="summary_large_image" />
       <meta

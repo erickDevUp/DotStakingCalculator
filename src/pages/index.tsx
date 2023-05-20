@@ -20,19 +20,7 @@ export default function Home({ price }: any) {
 
   return (
     <>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-C4JQG2K24N"
-        strategy="afterInteractive"
-      ></Script>
-      <Script>
-        {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C4JQG2K24N');`}
-      </Script>
+    
       <CheckRest>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-blue-100">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
