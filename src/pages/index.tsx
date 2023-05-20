@@ -23,6 +23,7 @@ export default function Home({ price }: any) {
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-C4JQG2K24N"
+        strategy="afterInteractive"
       ></Script>
       <Script>
         {`
