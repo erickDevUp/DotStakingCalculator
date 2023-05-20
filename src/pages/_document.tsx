@@ -8,18 +8,17 @@ export default function Document() {
       <Head>
         <SeoTags />
         <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-C4JQG2K24N"
-        strategy="afterInteractive"
-      ></Script>
-      <Script>
-        {`
+          src="https://www.googletagmanager.com/gtag/js?id=G-C4JQG2K24N"
+          strategy="afterInteractive"
+        ></Script>
+        <Script>
+          {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-C4JQG2K24N');`}
-      </Script>
+        </Script>
       </Head>
 
       <body>
