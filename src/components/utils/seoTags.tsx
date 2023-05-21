@@ -30,7 +30,7 @@ export default function SeoTags() {
           },
         ]}
         openGraph={{
-          url: "https://www.url.ie/a",
+          url: "https://dot-staking-calculator.vercel.app/",
           title: "Polkadot Staking Calculator Reward (DOT)",
           description:
             "Get the most out of your Polkadot staking with our efficient and distraction-free calculator. Calculate your rewards hassle-free with our easy-to-use tool.",
