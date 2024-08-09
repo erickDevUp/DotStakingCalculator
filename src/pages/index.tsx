@@ -56,12 +56,14 @@ export default function Home({ price }: any) {
               <div className="my-10 divide-x-2 bg-slate-300 h-[1px]"></div>
             )}
             {calculate && (
-              <Reward
-                calculate={calculate}
-                getConversionPrice={getConversionPrice}
-              ></Reward>
+              <>
+                <Reward
+                  calculate={calculate}
+                  getConversionPrice={getConversionPrice}
+                ></Reward>
+                <ModalAd />
+              </>
             )}
-            <ModalAd />
           </div>
         </div>
       </CheckRest>
