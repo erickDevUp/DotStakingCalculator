@@ -28,7 +28,8 @@ export default function Home({ price }: any) {
             <img
               className="mx-auto h-10 w-auto"
               src="/Logo.png"
-              alt="Your Company"
+              alt="Polkadot Staking Calculator Logo"
+              loading="lazy"
             />
             <h1 className="mt-5 text-center text-2xl font-bold leading-10 tracking-tight text-gray-900">
               Polkadot Staking Calculator (DOT)
