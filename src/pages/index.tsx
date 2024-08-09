@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Container from "@/components/container";
 import ImputReward from "@/components/inputReward";
 import ImputMont from "@/components/inputMont";
@@ -8,8 +6,8 @@ import Reward from "@/components/reward";
 import { CheckRest } from "@/context/checkCtx";
 import { useState } from "react";
 import Calculate from "@/components/calculate";
-import Script from "next/script";
 import NextSeoCard from "../components/utils/nextSeo";
+import ModalAd from "@/components/ModalAd";
 
 export default function Home({ price }: any) {
   const [calculate, setCalculate] = useState();
@@ -63,6 +61,7 @@ export default function Home({ price }: any) {
                 getConversionPrice={getConversionPrice}
               ></Reward>
             )}
+            <ModalAd />
           </div>
         </div>
       </CheckRest>
